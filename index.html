@@ -13,17 +13,17 @@
     
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <img class="ng-border" src="img/ng-border.png" alt="frame">
         <img class="ng-logo" src="img/ng-logo-2fl.webp" alt="logo">
 
         <div>
-            <a href="#">Login</a>
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#">Newsletters</a>
-            <a href="#">Subscribe</a>
-            <a href="#">Menu</a>
-            <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+            <a href="#" class="link-login">Login</a>
+            <a href="#" class="link-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="link-news">Newsletters</a>
+            <a href="#" class="link-subs">Subscribe</a>
+            <a href="#" class="link-menu">Menu</a>
+            <a href="#" class="link-angles"><i class="fa-solid fa-angles-down"></i></a>
         </div>
     </nav>
     <header>
@@ -32,21 +32,31 @@
         <div></div>
     </header>
     <main>
-        <div>
+        <div class="main-news">
             <img src="img/refugees.avif" alt="">
-            <h3>History & Culture</h3>
+
+            <div class="main-news-text">
+                <h3>History & Culture</h3>
             
-            <p>Half my heart I left behind: Stories from Ukraine's refugees</p>
+                <p>Half my heart I left behind: Stories from Ukraine's refugees</p>
 
-            <p><i class="fa-solid fa-bars"></i> Read</p>
-        </div>
+                <a><i class="fa-solid fa-bars"></i> Read</a>
+            </div><!--main-news-text-->
+        </div><!--.main-news-->
 
-        <div>
+        <div class="secondary-news">
             <img src="img/divers.webp" alt="">
-            <h3>Magazine</h3>
-            <p>A diver's hunt for lost slave ships led to an incredible journey</p>
-            <p><i class="fa-solid fa-bars"></i> Read</p>
+            
+            <div class="secondary-news-text">
+                <h3>Magazine</h3>
+                <p>A diver's hunt for lost slave ships led to an incredible journey</p>
+                <a><i class="fa-solid fa-bars"></i> Read</a>
+            </div>
+            
         </div>
+        
+        
+        
         <div>
             <img src="img/divers.webp" alt="">
             <h3>Magazine</h3>
